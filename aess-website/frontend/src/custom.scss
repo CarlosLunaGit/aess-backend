@@ -1,0 +1,13 @@
+$primary: #007bff;
+
+@import "~bootstrap/scss/bootstrap";
+
+.navbar-brand-text {
+    font-size: 1rem;
+    padding-inline: 1rem;
+  }
+  
+  .navbar-brand-text > img {
+    padding-inline: 1rem;
+  }
+  
