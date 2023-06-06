@@ -10,4 +10,20 @@ $primary: #007bff;
   .navbar-brand-text > img {
     padding-inline: 1rem;
   }
-  
+  .carousel {
+
+    max-height: 50vh;
+}
+
+.carousel-item {
+  max-height: 50vh;
+}
+
+.carousel-inner {
+
+  border-radius: 0.25rem;
+}
+
+.carousel-item img {
+  filter:contrast(0.25);
+}
