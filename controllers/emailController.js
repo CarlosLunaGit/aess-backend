@@ -1,6 +1,6 @@
 const { google } = require('googleapis');
 
-const sendEmail = async (req, res) => {
+const sendEmail = async (req, res, next) => {
   const { name, email, message } = req.body;
 
   const CLIENT_ID = process.env.GMAIL_CLIENT_ID;
