@@ -11,17 +11,16 @@ on:
 
 jobs:
   build-and-deploy:
+    name: Build and Deploy
     runs-on: windows-latest
 
     steps:
-      - name: 'Checkout Github Action' 
       - uses: actions/checkout@master
 
       - name: 'Set up Node.js version'
         uses: actions/setup-node@v1
         with:
           node-version: '18.x'
-
       - name: 'npm install, build, and test'
         run: |
           npm prune --production
